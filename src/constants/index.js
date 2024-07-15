@@ -37,38 +37,33 @@ import {
 } from "../assets";
 
 export const navigation = [
-  {
-    id: "0",
-    title: "Features",
-    url: "#features",
-  },
-  {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
-  {
-    id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+	{
+		id: '0',
+		title: 'Features',
+		url: '#features',
+	},
+	{
+		id: '1',
+		title: 'How to use',
+		url: '#how-to-use',
+	},
+	{
+		id: '2',
+		title: 'Roadmap',
+		url: '#roadmap',
+	},
+	{
+		id: '3',
+		title: 'Whitepaper',
+		url: '#whitepaper',
+	},
+
+	// {
+	// 	id: '4',
+	// 	title: 'Connect Wallet',
+	// 	url: '#login',
+	// 	onlyMobile: true,
+	// },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -131,19 +126,23 @@ export const collabText =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
 
 export const collabContent = [
-  {
-    id: "0",
-    title: "Seamless Integration",
-    text: collabText,
-  },
-  {
-    id: "1",
-    title: "Smart Automation",
-  },
-  {
-    id: "2",
-    title: "Top-notch Security",
-  },
+	{
+		id: '0',
+		title: 'Seamless Integration',
+		text: collabText,
+	},
+	{
+		id: '1',
+		title: 'Smart Automation',
+	},
+	{
+		id: '2',
+		title: 'Top-notch Security',
+	},
+	{
+		id: '3',
+		title: 'Top-notch Auditing',
+	},
 ];
 
 export const collabApps = [
