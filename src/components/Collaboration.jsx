@@ -35,7 +35,7 @@ const Collaboration = () => {
 					<Button>Try it now</Button>
 				</div>
 				<div className='lg:ml-auto xl:w-[38rem] mt-4'>
-					<p className='body-2 mb-20 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto'>
+					<p className='body-2 mb-20 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto'>
 						{collabText}
 					</p>
 

@@ -239,8 +239,8 @@ export const pricing = [
 export const benefits = [
 	{
 		id: '0',
-		title: 'Web3-Enabled Connectivity',
-		text: 'Offers seamless connectivity and user control through Web3, enhancing privacy and autonomy in your chats.',
+		title: 'Real-Time Interaction',
+		text: 'Supports instant, real-time communication with Web3 protocols for fast and reliable chat experiences.',
 		backgroundUrl: './src/assets/benefits/card-1.svg',
 		iconUrl: benefitIcon1,
 		imageUrl: benefitImage2,
