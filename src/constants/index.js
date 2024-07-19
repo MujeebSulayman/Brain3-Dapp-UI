@@ -87,39 +87,39 @@ export const brainwaveServicesIcons = [
 ];
 
 export const roadmap = [
-  {
-    id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
-    colorful: true,
-  },
-  {
-    id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
-  },
-  {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
-  },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
-  },
+	{
+		id: '0',
+		title: 'Voice-to-Text',
+		text: 'Convert spoken words into text in real time, making it easier for users to communicate hands-free and enhance their chat experience.',
+		date: 'May 2024',
+		status: 'done',
+		imageUrl: roadmap1,
+		colorful: true,
+	},
+	{
+		id: '1',
+		title: 'Gamification',
+		text: 'Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the users more frequently.',
+		date: 'May 2024',
+		status: 'progress',
+		imageUrl: roadmap2,
+	},
+	{
+		id: '2',
+		title: 'Chatbot customization',
+		text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+		date: 'Coming Soon',
+		status: 'progress',
+		imageUrl: roadmap3,
+	},
+	{
+		id: '3',
+		title: 'Integration with APIs',
+		text: 'Seamlessly connect with external data sources, such as weather or news APIs, to enrich chat conversations with relevant, real-time information and recommendations.',
+		date: 'Coming Soon',
+		status: 'progress',
+		imageUrl: roadmap4,
+	},
 ];
 
 export const collabText =
@@ -290,34 +290,28 @@ export const benefits = [
 ];
 
 export const socials = [
-  {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
-    id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
-  },
+	{
+		id: '0',
+		title: 'Discord',
+		iconUrl: discordBlack,
+		url: '#',
+	},
+	{
+		id: '1',
+		title: 'Twitter',
+		iconUrl: twitter,
+		url: 'https://x.com/TheHemjay',
+	},
+	{
+		id: '2',
+		title: 'Instagram',
+		iconUrl: instagram,
+		url: 'https://www.instagram.com/thehemjay_/',
+	},
+	{
+		id: '3',
+		title: 'Telegram',
+		iconUrl: telegram,
+		url: 'https://t.me/+2347053250527',
+	},
 ];

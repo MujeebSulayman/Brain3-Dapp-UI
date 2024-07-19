@@ -67,19 +67,20 @@ const Services = () => {
 						</div>
 
 						<div className='absolute justify-end inset-0 flex flex-col p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 '>
-							<h4 className='h4 mb-4'>NFT Minting</h4>
+							<h4 className='h4 mb-4'>Chat Enhancement</h4>
 							<p className='body-2 mb-[3rem] text-n-3'>
-								Brain3 Automatically enhance your NFT token. Check it out!
+								Automatically improve your chat experience with our AI-powered
+								features. Try it now!
 							</p>
 						</div>
 						<PhotoChatMessage />
 					</div>
 					<div className='p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]'>
 						<div className='py-12 px-4 xl:px-8'>
-							<h4 className='h4 mb-4'>Smart Chat Solutions</h4>
+							<h4 className='h4 mb-4'>Chat Innovation</h4>
 							<p className='body-2 mb-[2rem]'>
-								Discover how you can leverage smart contracts and
-								secure communication in our platform.
+								The world’s most advanced AI-powered chat and messaging
+								technology. What will you explore?
 							</p>
 							<ul className='flex items-center justify-between'>
 								{brainwaveServicesIcons.map((item, index) => (
