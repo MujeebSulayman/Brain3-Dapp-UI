@@ -16,23 +16,24 @@ const Services = () => {
 		<Section id='how-to-use'>
 			<div className='container'>
 				<Heading
-					title='Formative NFT made for our users'
-					text='Brain3 unlocks the power of NFT'
+					title='Secure Chat Solutions for Our Users'
+					text='Brain3 enhances your chat experience with cutting-edge Web3 technology.'
 				/>
 				<div className='z-1 flex relative h-[29rem] border border-n-1/10 overflow-hidden items-center mb-5 p-0 rounded-3xl lg:p-20 xl:h-[46rem]'>
-					<div className='absolute w-full h-full pointer-events-none md:w-3/5 xl:w-auto'>
+					<div className='absolute w-full h-full pointer-events-none md:w-3/5 xl:w-[45rem]'>
 						<img
 							src={service1}
-							className='w-full h-full object-cover md:object-right lg:opacity-65 opacity-50'
+							className='w-full h-full object-cover md:object-right lg:opacity-40 opacity-50'
 							width={800}
 							height={730}
 							alt='NFT'
 						/>
 					</div>
-					<div className='relative z-1 max-w-[17rem] lg:ml-auto ml-[90px]'>
+					<div className='relative z-1 max-w-[23rem] lg:ml-auto ml-[90px]'>
 						<h4 className='h4 mb-4'>Smart Contract</h4>
 						<p className='body-2 mb-[2rem] text-n-3'>
-							Brain3 Unlocks the power of NFT-powered applications
+							Automate and secure interactions with seamless smart contract
+							integration.
 						</p>
 						<ul className='body-2'>
 							{brainwaveServices.map((item, index) => (

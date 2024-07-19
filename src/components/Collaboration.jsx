@@ -2,16 +2,17 @@ import { brainwaveSymbol, check } from '../assets';
 import { collabApps, collabContent, collabText } from '../constants';
 import Button from './Button';
 import Section from './Section';
-import { LeftCurve, RightCurve } from './design/Collaboration';
 
 const Collaboration = () => {
 	return (
 		<Section crosses>
 			<div className='container lg:flex'>
-				<div className='max-w-[25rem]'>
-					<h2 className='h2 mb-4 md:mb-8'>NFT Depo with seamless minting</h2>
+				<div className='max-w-[35rem]'>
+					<h2 className='h2 mb-4 md:mb-8'>
+						Web3 Chat with Effortless Integration
+					</h2>
 
-					<ul className='max-w-[22rem] mb-10 md:mb-14'>
+					<ul className='max-w-[26rem] mb-10 md:mb-14'>
 						{collabContent.map((item) => (
 							<li
 								className='mb-3 py-3'
@@ -75,8 +76,7 @@ const Collaboration = () => {
 							))}
 						</ul>
 
-						<LeftCurve />
-						<RightCurve />
+					
 					</div>
 				</div>
 			</div>
