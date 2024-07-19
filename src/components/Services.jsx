@@ -23,7 +23,7 @@ const Services = () => {
 					<div className='absolute w-full h-full pointer-events-none md:w-3/5 xl:w-[45rem]'>
 						<img
 							src={service1}
-							className='w-full h-full object-cover md:object-right lg:opacity-40 opacity-50'
+							className='w-full h-full object-cover md:object-right lg:opacity-70 opacity-50'
 							width={800}
 							height={730}
 							alt='NFT'
