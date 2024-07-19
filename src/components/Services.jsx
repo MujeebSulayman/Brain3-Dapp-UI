@@ -76,10 +76,10 @@ const Services = () => {
 					</div>
 					<div className='p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]'>
 						<div className='py-12 px-4 xl:px-8'>
-							<h4 className='h4 mb-4'>Tokenization</h4>
+							<h4 className='h4 mb-4'>Smart Chat Solutions</h4>
 							<p className='body-2 mb-[2rem]'>
-								Brain3 Unlocks the power of NFT-powered application. What would
-								you tokenize?
+								Discover how you can leverage smart contracts and
+								secure communication in our platform.
 							</p>
 							<ul className='flex items-center justify-between'>
 								{brainwaveServicesIcons.map((item, index) => (
