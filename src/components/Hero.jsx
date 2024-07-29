@@ -1,16 +1,16 @@
-import { curve, heroBackground, robot } from '../assets';
+import { curve, heroBackground, robot, banner } from '../assets';
 import Button from './Button';
 import Section from './Section';
 import { BackgroundCircles, BottomLine, Gradient } from './design/Hero';
 import { heroIcons } from '../constants';
 import { ScrollParallax } from 'react-just-parallax';
-import { useRef } from 'react';
+
 import Generating from './Generating';
 import Notification from './Notification';
 import CompanyLogos from './CompanyLogos';
 
 const Hero = () => {
-	const parallaxRef = useRef(null);
+
 
 	return (
 		<Section
@@ -21,7 +21,7 @@ const Hero = () => {
 			id='hero'>
 			<div
 				className='container relative'
-				ref={parallaxRef}>
+				>
 				<div className='relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]'>
 					<h1 className='h1 mb-6'>
 						Discover the Future of Communication with

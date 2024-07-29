@@ -1,28 +1,49 @@
 import Header from './components/Header';
-import ButtonGradient from './assets/svg/ButtonGradient';
-import Hero from './components/Hero';
-import Benefits from './components/Benefits';
-import Collaboration from './components/Collaboration';
-import Services from './components/Services';
-import Pricing from './components/Pricing';
-import Roadmap from './components/Roadmap';
 import Footer from './components/Footer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Features from './pages/Features';
+import Use from './pages/Use';
+import Roadmap from './pages/Roadmap';
+import ButtonGradient from './assets/svg/ButtonGradient';
 
 const App = () => {
 	return (
-		<>
-			<div className='pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden'>
+		<BrowserRouter>
+			<>
 				<Header />
-				<Hero/>
-				<Benefits/>
-				<Collaboration/>
-				<Services />
-				<Pricing />
-				<Roadmap />
-				<Footer/>
-			</div>
-			<ButtonGradient />
-		</>
+				<Routes>
+					<Route
+						path='/'
+						element={<Home />}
+					/>
+					<Route
+						path='/home'
+						element={<Home />}
+					/>
+					<Route
+						path='/About'
+						element={<About />}
+					/>
+					<Route
+						path='/Features'
+						element={<Features />}
+					/>
+					<Route
+						path='/Use'
+						element={<Use />}
+					/>
+					<Route
+						path='/Roadmap'
+						element={<Roadmap />}
+					/>
+				</Routes>
+				<Footer />
+
+				<ButtonGradient />
+			</>
+		</BrowserRouter>
 	);
 };
 

@@ -1,15 +1,18 @@
-import { benefits } from "../constants";
-import Heading from "./Heading";
-import Section from "./Section";
-import Arrow from "../assets/svg/Arrow";
-import { GradientLight } from "./design/Benefits";
-import ClipPath from "../assets/svg/ClipPath";
+import { benefits } from '../constants';
+import Heading from '../components/Heading';
+import Section from '../components/Section';
+import Arrow from '../assets/svg/Arrow';
+import { GradientLight } from '../components/design/Benefits';
+import ClipPath from '../assets/svg/ClipPath';
 
-const Benefits = () => {
-  return (
-		<Section>
+const About = () => {
+	return (
+		<Section
+			id='features'
+			crosses>
 			<div className='container relative z-2'>
 				<Heading
+					tag='Ready to get started'
 					className='md:max-w-md lg:max-w-2xl'
 					title='Real-time Chatting, Connect easily with Brain3'
 				/>
@@ -66,4 +69,4 @@ const Benefits = () => {
 	);
 };
 
-export default Benefits;
+export default About;

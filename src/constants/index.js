@@ -39,31 +39,29 @@ import {
 export const navigation = [
 	{
 		id: '0',
-		title: 'Features',
-		url: '#features',
+		title: 'About',
+		url: '/About',
 	},
 	{
 		id: '1',
-		title: 'How to use',
-		url: '#how-to-use',
+		title: 'Features',
+		url: '/Features',
 	},
 	{
 		id: '2',
-		title: 'Roadmap',
-		url: '#roadmap',
+		title: 'How to use',
+		url: '/Use',
 	},
 	{
 		id: '3',
-		title: 'Whitepaper',
-		url: '#whitepaper',
+		title: 'Roadmap',
+		url: '/Roadmap',
 	},
-
-	// {
-	// 	id: '4',
-	// 	title: 'Connect Wallet',
-	// 	url: '#login',
-	// 	onlyMobile: true,
-	// },
+	{
+		id: '4',
+		title: 'Whitepaper',
+		url: '/Whitepaper',
+	},
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];

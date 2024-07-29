@@ -1,7 +1,7 @@
 {
-  "name": "chat-hardhat",
+  "name": "Brain3 Chat App",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,7 +14,7 @@
     "react-dom": "^18.2.0",
     "react-just-parallax": "^3.1.16",
     "react-router-dom": "^6.22.1",
-    "scroll-lock": "^2.1.5",
+    "scroll-lock": "^2.1.5"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
@@ -29,13 +29,5 @@
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "vite": "^5.1.0"
-  },
-  "description": "<div align=\"center\">",
-  "main": "postcss.config.js",
-  "author": "Mujeeb Sulayman",
-  "license": "ISC",
-  "directories": {
-    "test": "test"
-  },
-  "keywords": []
+  }
 }
